@@ -2,9 +2,10 @@ import { motion } from 'framer-motion';
 
 export default function About() {
   const skills = [
-    'JavaScript (ES6+)', 'TypeScript', 'React', 'Node.js', 'Python',
-    'AWS', 'Docker', 'Kubernetes', 'GraphQL', 'PostgreSQL',
-    'MongoDB', 'Git', 'CI/CD', 'Microservices', 'REST APIs'
+    'Java', 'Python', 'C++', 'C#', 'SQL',
+    'React', 'Angular', 'HTML/CSS', 'Network Monitoring',
+    'Data Backup Solutions', 'Team Collaboration', 'Cybersecurity',
+    'System Administration', 'Technical Support', 'Project Management'
   ];
 
   return (
@@ -52,20 +53,31 @@ export default function About() {
               A little about me
             </h3>
             <div className="space-y-4 text-gray-600">
-              <p>
-                Hello! I'm Carter, a passionate software engineer with a love for building
-                exceptional digital experiences. My journey in software development started
-                when I built my first website in high school, and I've been hooked ever since.
+              <p className="text-lg mb-6">
+                Motivated Computer Science graduate with a strong foundation in software engineering and information technology. Eager to apply technical expertise in application development, system support, and cybersecurity while contributing to a dynamic, growth-oriented organization.
               </p>
-              <p>
-                I specialize in building scalable web applications using modern technologies
-                like React, Node.js, and cloud platforms. I'm a strong believer in clean code,
-                test-driven development, and continuous learning.
+              <p className="text-lg mb-6">
+                Dynamic Software Engineer with hands-on experience in Java, Python, C++, and SQL, and a strong background in hardware implementation and network management. Focused on delivering scalable, secure, and efficient solutions across enterprise environments. Committed to excellence in every project.
               </p>
-              <p>
-                When I'm not coding, you can find me hiking in the mountains, reading
-                science fiction, or experimenting with new technologies and side projects.
-              </p>
+              <div className="mb-6">
+                <h3 className="text-xl font-semibold mb-4">Contact</h3>
+                <p className="mb-2">Email: carter@carterbridges.dev</p>
+                <p className="mb-2">Phone: 704-412-7870</p>
+                <p className="mb-2">Location: Union Grove, NC</p>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-4">Education</h3>
+                <div className="mb-4">
+                  <h4 className="font-semibold">Bachelor of Science in Computer Science</h4>
+                  <p>Appalachian State University, Boone, NC (2022-2025)</p>
+                  <p>Department GPA: 3.4, Cumulative GPA: 3.37</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold">Associate of Science in Information Technology</h4>
+                  <p>Surry Community College, Dobson, NC (2020-2022)</p>
+                  <p>Graduated with Honors, GPA: 4.0</p>
+                </div>
+              </div>
             </div>
 
             <div className="mt-8">

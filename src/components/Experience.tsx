@@ -2,37 +2,30 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    role: 'Senior Software Engineer',
-    company: 'Tech Innovations Inc.',
-    period: '2022 - Present',
+    role: 'Tech Support Consultant',
+    company: 'Tar Heel Insurance, Statesville, NC',
+    period: 'Jun 2020 — Dec 2022',
     description: [
-      'Led a cross-functional team to develop and deploy a microservices-based architecture, improving system scalability by 40%',
-      'Implemented CI/CD pipelines reducing deployment time by 60%',
-      'Mentored junior developers and conducted code reviews to maintain code quality'
+      'Assembled and configured custom hardware systems and computer networks',
+      'Automated data extraction using Python, reducing manual processing time by 40%',
+      'Monitored system performance and implemented preventative maintenance',
+      'Collaborated with staff to identify and resolve technical issues efficiently',
+      'Enhanced cybersecurity measures and conducted system audits'
     ],
-    technologies: ['React', 'Node.js', 'AWS', 'Docker', 'Kubernetes']
+    technologies: ['Python', 'Network Configuration', 'System Maintenance', 'Cybersecurity']
   },
   {
-    role: 'Software Engineer',
-    company: 'Digital Solutions LLC',
-    period: '2019 - 2022',
+    role: 'Information Technology Specialist',
+    company: 'Staples, Statesville, NC',
+    period: 'Jun 2019 — Jun 2020',
     description: [
-      'Developed and maintained customer-facing web applications using React and TypeScript',
-      'Optimized database queries, improving application performance by 30%',
-      'Collaborated with product managers to implement new features and improve user experience'
+      'Installed and maintained network infrastructure and endpoint systems',
+      'Provided technical support and documentation for enterprise users',
+      'Guided staff on safe and effective technology use across departments',
+      'Managed multiple technical projects while meeting deadlines',
+      'Served as first point of contact for incoming IT support requests'
     ],
-    technologies: ['TypeScript', 'React', 'PostgreSQL', 'GraphQL']
-  },
-  {
-    role: 'Junior Developer',
-    company: 'WebCraft Studios',
-    period: '2017 - 2019',
-    description: [
-      'Built responsive websites and web applications using modern JavaScript frameworks',
-      'Worked closely with designers to implement pixel-perfect UIs',
-      'Participated in agile development processes and code reviews'
-    ],
-    technologies: ['JavaScript', 'React', 'CSS3', 'HTML5']
+    technologies: ['Network Infrastructure', 'Technical Support', 'IT Documentation', 'Project Management']
   }
 ];
 
