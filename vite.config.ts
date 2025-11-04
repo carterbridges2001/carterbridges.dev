@@ -2,9 +2,9 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // https://vite.dev/config/
-export default defineConfig(({ command }) => ({
+export default defineConfig({
   plugins: [react()],
-  base: command === 'build' ? '/carterbridges.dev/' : '/',
+  base: '/',
   build: {
     outDir: 'dist',
     sourcemap: true,
@@ -17,4 +17,4 @@ export default defineConfig(({ command }) => ({
     port: 3005,
     open: true,
   },
-}))
+})
