@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "commonjs",
-  "homepage": "https://carterbridges.github.io/carter-bridges-dev",
+  "homepage": "https://carterbridges2001.github.io/carterbridges.dev",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
