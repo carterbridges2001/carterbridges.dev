@@ -1,13 +1,13 @@
 import { motion } from 'framer-motion';
-import { FiMail, FiMapPin, FiLinkedin, FiGithub, FiTwitter } from 'react-icons/fi';
+import { FiMail, FiMapPin, FiLinkedin, FiGithub, FiFileText, FiBriefcase } from 'react-icons/fi';
 
 export default function Contact() {
   const contactMethods = [
     {
       icon: <FiMail className="text-2xl" />,
       title: 'Email',
-      value: 'contact@carterbridges.dev',
-      href: 'mailto:contact@carterbridges.dev',
+      value: 'carter@carterbridges.dev',
+      href: 'mailto:carter@carterbridges.dev',
     },
     {
       icon: <FiMapPin className="text-2xl" />,
@@ -21,17 +21,22 @@ export default function Contact() {
     {
       icon: <FiGithub className="w-6 h-6" />,
       label: 'GitHub',
-      href: 'https://github.com/carterbridges',
+      href: 'https://github.com/carterbridges2001',
     },
     {
       icon: <FiLinkedin className="w-6 h-6" />,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/carterbridges',
+      href: 'https://www.linkedin.com/in/carterbridges2001/',
     },
     {
-      icon: <FiTwitter className="w-6 h-6" />,
-      label: 'Twitter',
-      href: 'https://twitter.com/carterbridges',
+      icon: <FiBriefcase className="w-6 h-6" />,
+      label: 'Handshake',
+      href: 'https://app.joinhandshake.com/profiles/carterb',
+    },
+    {
+      icon: <FiFileText className="w-6 h-6" />,
+      label: 'Resume',
+      href: 'https://drive.google.com/file/d/1iIn-L8xBkc21b4hC2BNyCjoWGSsWh_Rv/view?usp=sharing',
     },
   ];
 

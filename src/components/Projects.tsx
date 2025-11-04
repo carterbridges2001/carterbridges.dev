@@ -6,7 +6,7 @@ const projects = [
     title: 'Project One',
     description: 'A modern web application built with React and Node.js that helps users manage their daily tasks efficiently.',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
-    github: 'https://github.com/carterbridges/project-one',
+    github: 'https://github.com/carterbridges2001/project-one',
     demo: 'https://project-one-demo.com',
     image: '/project1.jpg'
   },
@@ -14,7 +14,7 @@ const projects = [
     title: 'E-commerce Platform',
     description: 'A full-featured e-commerce platform with user authentication, product catalog, and payment integration.',
     technologies: ['Next.js', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-    github: 'https://github.com/carterbridges/ecommerce-platform',
+    github: 'https://github.com/carterbridges2001/ecommerce-platform',
     demo: 'https://ecommerce-demo.com',
     image: '/project2.jpg'
   },
@@ -22,7 +22,7 @@ const projects = [
     title: 'AI-Powered Analytics Dashboard',
     description: 'Real-time data visualization and analytics dashboard with machine learning predictions.',
     technologies: ['Python', 'TensorFlow', 'D3.js', 'FastAPI'],
-    github: 'https://github.com/carterbridges/ai-analytics',
+    github: 'https://github.com/carterbridges2001/ai-analytics',
     demo: 'https://analytics-demo.com',
     image: '/project3.jpg'
   },
@@ -30,7 +30,7 @@ const projects = [
     title: 'Mobile Task Manager',
     description: 'Cross-platform mobile application for task management with offline support and cloud sync.',
     technologies: ['React Native', 'Redux', 'Firebase', 'TypeScript'],
-    github: 'https://github.com/carterbridges/task-manager-app',
+    github: 'https://github.com/carterbridges2001/task-manager-app',
     demo: 'https://apps.apple.com/app/task-manager',
     image: '/project4.jpg'
   }
@@ -119,7 +119,7 @@ export default function Projects() {
           className="mt-16 text-center"
         >
           <a
-            href="https://github.com/carterbridges"
+            href="https://github.com/carterbridges2001"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 border-2 border-primary text-primary font-medium rounded-lg hover:bg-primary hover:text-white transition-colors duration-300"

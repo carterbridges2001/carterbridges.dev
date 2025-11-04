@@ -10,13 +10,13 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="mb-8"
         >
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Hi, I'm <span className="text-yellow-300">Carter Bridges</span>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
+            Hi, I'm Carter Bridges
           </h1>
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-gray-100">
+          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-gray-200">
             Software Engineer & Problem Solver
           </h2>
-          <p className="text-lg md:text-xl text-gray-200 mb-12 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
             I build exceptional digital experiences with modern technologies. 
             Currently focused on creating impactful software solutions.
           </p>

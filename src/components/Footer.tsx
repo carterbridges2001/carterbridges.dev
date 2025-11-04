@@ -1,25 +1,25 @@
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiTwitter, FiMail } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiBriefcase } from 'react-icons/fi';
 
 const socialLinks = [
   {
     icon: <FiGithub className="w-5 h-5" />,
-    href: 'https://github.com/carterbridges',
+    href: 'https://github.com/carterbridges2001',
     label: 'GitHub',
   },
   {
     icon: <FiLinkedin className="w-5 h-5" />,
-    href: 'https://linkedin.com/in/carterbridges',
+    href: 'https://www.linkedin.com/in/carterbridges2001/',
     label: 'LinkedIn',
   },
   {
-    icon: <FiTwitter className="w-5 h-5" />,
-    href: 'https://twitter.com/carterbridges',
-    label: 'Twitter',
+    icon: <FiBriefcase className="w-5 h-5" />,
+    href: 'https://app.joinhandshake.com/profiles/carterb',
+    label: 'Handshake',
   },
   {
     icon: <FiMail className="w-5 h-5" />,
-    href: 'mailto:contact@carterbridges.dev',
+    href: 'mailto:carter@carterbridges.dev',
     label: 'Email',
   },
 ];

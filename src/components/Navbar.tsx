@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { FiMenu, FiX, FiGithub, FiLinkedin, FiMail, FiTwitter } from 'react-icons/fi';
+import { FiMenu, FiX, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,10 +21,9 @@ export default function Navbar() {
   ];
 
   const socialLinks = [
-    { icon: <FiGithub />, href: 'https://github.com/carterbridges' },
-    { icon: <FiLinkedin />, href: 'https://linkedin.com/in/carterbridges' },
-    { icon: <FiMail />, href: 'mailto:contact@carterbridges.dev' },
-    { icon: <FiTwitter />, href: 'https://twitter.com/carterbridges' },
+    { icon: <FiGithub />, href: 'https://github.com/carterbridges2001' },
+    { icon: <FiLinkedin />, href: 'https://www.linkedin.com/in/carterbridges2001/' },
+    { icon: <FiMail />, href: 'mailto:carter@carterbridges.dev' },
   ];
 
   return (
@@ -36,7 +35,7 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <a href="#" className="text-2xl font-bold text-primary">
+            <a href="#" className={`text-2xl font-bold ${scrolled ? 'text-primary' : 'text-white'}`}>
               Carter Bridges
             </a>
           </div>
@@ -47,7 +46,7 @@ export default function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-dark hover:text-primary transition-colors duration-200 font-medium"
+                className={`${scrolled ? 'text-gray-800' : 'text-white'} hover:text-primary transition-colors duration-200 font-medium`}
               >
                 {item.name}
               </a>
