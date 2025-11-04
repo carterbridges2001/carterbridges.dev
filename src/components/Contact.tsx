@@ -12,8 +12,8 @@ export default function Contact() {
     {
       icon: <FiMapPin className="text-2xl" />,
       title: 'Location',
-      value: 'San Francisco, CA',
-      href: 'https://maps.google.com?q=San+Francisco',
+      value: 'Union Grove, NC',
+      href: 'https://maps.google.com?q=Union+Grove+NC',
     },
   ];
 
