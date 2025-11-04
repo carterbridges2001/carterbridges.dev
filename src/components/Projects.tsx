@@ -3,35 +3,35 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const projects = [
   {
-    title: 'Project One',
-    description: 'A modern web application built with React and Node.js that helps users manage their daily tasks efficiently.',
+    title: 'Project 1',
+    description: 'Feature coming soon',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
-    github: 'https://github.com/carterbridges2001/project-one',
-    demo: 'https://project-one-demo.com',
+    github: 'https://github.com/carterbridges2001',
+    demo: '#',
     image: '/project1.jpg'
   },
   {
-    title: 'E-commerce Platform',
-    description: 'A full-featured e-commerce platform with user authentication, product catalog, and payment integration.',
+    title: 'Project 2',
+    description: 'Feature coming soon',
     technologies: ['Next.js', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-    github: 'https://github.com/carterbridges2001/ecommerce-platform',
-    demo: 'https://ecommerce-demo.com',
+    github: 'https://github.com/carterbridges2001',
+    demo: '#',
     image: '/project2.jpg'
   },
   {
-    title: 'AI-Powered Analytics Dashboard',
-    description: 'Real-time data visualization and analytics dashboard with machine learning predictions.',
+    title: 'Project 3',
+    description: 'Feature coming soon',
     technologies: ['Python', 'TensorFlow', 'D3.js', 'FastAPI'],
-    github: 'https://github.com/carterbridges2001/ai-analytics',
-    demo: 'https://analytics-demo.com',
+    github: 'https://github.com/carterbridges2001',
+    demo: '#',
     image: '/project3.jpg'
   },
   {
-    title: 'Mobile Task Manager',
-    description: 'Cross-platform mobile application for task management with offline support and cloud sync.',
+    title: 'Project 4',
+    description: 'Feature coming soon',
     technologies: ['React Native', 'Redux', 'Firebase', 'TypeScript'],
-    github: 'https://github.com/carterbridges2001/task-manager-app',
-    demo: 'https://apps.apple.com/app/task-manager',
+    github: 'https://github.com/carterbridges2001',
+    demo: '#',
     image: '/project4.jpg'
   }
 ];
@@ -72,7 +72,6 @@ export default function Projects() {
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-dark mb-2">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
-                
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, i) => (
                     <span
@@ -83,7 +82,7 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                
+
                 <div className="flex space-x-4">
                   <a
                     href={project.github}
@@ -94,17 +93,15 @@ export default function Projects() {
                   >
                     <FiGithub className="mr-1" /> Code
                   </a>
-                  {project.demo && (
-                    <a
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center text-gray-700 hover:text-primary transition-colors"
-                      aria-label="View live demo"
-                    >
-                      <FiExternalLink className="mr-1" /> Live Demo
-                    </a>
-                  )}
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-gray-700 hover:text-primary transition-colors"
+                    aria-label="View live demo"
+                  >
+                    <FiExternalLink className="mr-1" /> Demo
+                  </a>
                 </div>
               </div>
             </motion.div>
