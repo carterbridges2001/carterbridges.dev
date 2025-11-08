@@ -4,8 +4,8 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 const projects = [
   {
     title: 'Ruminary Exchange',
-    description: 'High-end goat auction platform featuring real-time bidding, secure payments, and comprehensive livestock management tools.',
-    technologies: ['html', 'css', 'js', 'Firebase', 'Stripe'],
+    description: 'A high-end goat auction platform with real-time bidding, secure payments, and breeder management tools.',
+    technologies: ['React', 'Node.js', 'Firebase', 'Express', 'WebSockets', 'Stripe'],
     github: 'https://github.com/carterbridges2001/Ruminary',
     demo: 'https://ruminaryexchange.com',
     image: '/images/ruminary-logo-mk1.png'
@@ -19,38 +19,53 @@ const projects = [
     image: '/images/ruminarymobile.png'
   },
   {
-    title: 'Project 3',
-    description: 'Feature coming soon',
-    technologies: ['Python', 'TensorFlow', 'D3.js', 'FastAPI'],
-    github: 'https://github.com/carterbridges2001',
-    demo: '#',
-    image: '/images/project3.jpg'
+    title: 'DefenSense',
+    description: 'An intelligent cybersecurity platform that detects and defends against real-time threats using AI and network behavior analytics.',
+    technologies: ['Python', 'TensorFlow', 'FastAPI', 'Docker', 'PostgreSQL'],
+    github: 'https://github.com/carterbridges2001/defensense',
+    demo: 'https://defensense.com',
+    image: '/images/DefenSense.png'
   },
   {
-    title: 'Project 4',
-    description: 'Feature coming soon',
-    technologies: ['Python', 'TensorFlow', 'D3.js', 'FastAPI'],
-    github: 'https://github.com/carterbridges2001',
-    demo: '#',
-    image: '/images/project3.jpg'
+    title: 'TallyFlux',
+    description: 'A secure, Java-based accounting API that handles financial records, transactions, and ledger summaries with real-time data flow.',
+    technologies: ['Java', 'Spring Boot', 'MySQL', 'JWT', 'Hibernate'],
+    github: 'https://github.com/carterbridges2001/tallyflux',
+    demo: 'https://tallyflux.com',
+    image: '/images/tallyflux.png'
   },
-    {
-    title: 'Project 5',
-    description: 'Feature coming soon',
-    technologies: ['Python', 'TensorFlow', 'D3.js', 'FastAPI'],
-    github: 'https://github.com/carterbridges2001',
-    demo: '#',
-    image: '/images/project3.jpg'
+  {
+    title: 'SocketSprint',
+    description: 'A reactive messaging backend that supports group chats, message persistence, and live presence updates using WebSockets and Redis Streams.',
+    technologies: ['Java', 'Spring WebFlux', 'Redis Streams', 'WebSocket', 'JWT', 'MongoDB'],
+    github: 'https://github.com/carterbridges2001/socketsprint',
+    demo: 'https://socketsprint.com',
+    image: '/images/socketsprint.png'
   },
-    {
-    title: 'Project 6',
-    description: 'Feature coming soon',
-    technologies: ['Python', 'TensorFlow', 'D3.js', 'FastAPI'],
-    github: 'https://github.com/carterbridges2001',
-    demo: '#',
-    image: '/images/project3.jpg'
+  {
+    title: 'Idenclave',
+    description: 'A secure, enterprise-grade IAM service offering OAuth2, SSO, token lifecycle management, and multi-tenant role-based access.',
+    technologies: ['Java', 'Spring Security', 'OAuth2', 'JWT', 'MySQL', 'Docker'],
+    github: 'https://github.com/carterbridges2001/idenclave',
+    demo: 'https://idenclave.com',
+    image: '/images/idenclave.png'
+  },
+  {
+    title: 'DataCascade',
+    description: 'Automates data extraction, transformation, and delivery through a modern Python pipeline, exposing fast and flexible APIs.',
+    technologies: ['Python', 'Pandas', 'FastAPI', 'Airflow', 'Docker'],
+    github: 'https://github.com/carterbridges2001/datacascade',
+    demo: 'https://datacascade.com',
+    image: '/images/datacascade.png'
+  },
+  {
+    title: 'StratusWatch',
+    description: 'A cloud-native IoT monitoring dashboard that tracks sensor data using MQTT and WebSockets, with real-time charts and alerts.',
+    technologies: ['Node.js', 'MQTT', 'React', 'D3.js', 'InfluxDB'],
+    github: 'https://github.com/carterbridges2001/stratuswatch',
+    demo: 'https://stratuswatch.com',
+    image: '/images/stratuswatch.png'
   }
-
 ];
 
 export default function Projects() {
@@ -67,7 +82,8 @@ export default function Projects() {
           <h2 className="text-4xl font-bold text-dark mb-4">Featured Projects</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Here are some of the projects I've worked on. Each project represents a unique challenge and solution.
+            These are some hands-on builds I'm actively working on to sharpen my skills and explore real world systems. 
+            Each one tackles a specific challenge I found interesting, from AI to IoT and pushes me deeper into full-stack engineering, secure backend architecture, and scalable infrastructure.
           </p>
         </motion.div>
 

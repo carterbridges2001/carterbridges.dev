@@ -1,20 +1,33 @@
-import { FiGithub, FiLinkedin, FiMail, FiBriefcase } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiBriefcase, FiFileText } from 'react-icons/fi';
+import { SiIndeed } from 'react-icons/si';
 
 const socialLinks = [
-  {
-    icon: <FiGithub className="w-5 h-5" />,
-    href: 'https://github.com/carterbridges2001',
-    label: 'GitHub',
-  },
+  // Professional
   {
     icon: <FiLinkedin className="w-5 h-5" />,
     href: 'https://www.linkedin.com/in/carterbridges2001/',
     label: 'LinkedIn',
   },
   {
+    icon: <FiFileText className="w-5 h-5" />,
+    href: 'https://drive.google.com/file/d/1iIn-L8xBkc21b4hC2BNyCjoWGSsWh_Rv/view',
+    label: 'Resume',
+  },
+  {
+    icon: <SiIndeed className="w-5 h-5" />,
+    href: 'https://profile.indeed.com/p/carterb-YOUR_PROFILE',
+    label: 'Indeed',
+  },
+  {
     icon: <FiBriefcase className="w-5 h-5" />,
     href: 'https://app.joinhandshake.com/profiles/carterb',
     label: 'Handshake',
+  },
+  // Development & Contact
+  {
+    icon: <FiGithub className="w-5 h-5" />,
+    href: 'https://github.com/carterbridges2001',
+    label: 'GitHub',
   },
   {
     icon: <FiMail className="w-5 h-5" />,

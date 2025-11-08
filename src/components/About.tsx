@@ -2,10 +2,22 @@ import { motion } from 'framer-motion';
 
 export default function About() {
   const skills = [
-    'Java', 'Python', 'C++', 'C#', 'SQL',
-    'React', 'Angular', 'HTML/CSS', 'Network Monitoring',
-    'Data Backup Solutions', 'Team Collaboration', 'Cybersecurity',
-    'System Administration', 'Technical Support', 'Project Management'
+    // Programming Languages
+    'Python', 'Java', 'JavaScript',
+    // Backend & APIs
+    'FastAPI', 'Flask', 'Spring Boot', 'Node.js',
+    // AI/ML
+    'TensorFlow', 'PyTorch', 'Pandas',
+    // Frontend
+    'React', 'D3.js',
+    // Databases
+    'PostgreSQL', 'MySQL', 'InfluxDB',
+    // DevOps & Tools
+    'Docker', 'AWS S3', 'Airflow', 'MQTT',
+    // Security & Authentication
+    'JWT',
+    // ORM
+    'Hibernate'
   ];
 
   return (
@@ -54,11 +66,9 @@ export default function About() {
             </h3>
             <div className="space-y-4 text-gray-600">
               <p className="text-lg mb-6">
-                Motivated Computer Science graduate with a strong foundation in software engineering and information technology. Eager to apply technical expertise in application development, system support, and cybersecurity while contributing to a dynamic, growth-oriented organization.
-              </p>
+I’m a hands-on software engineer with a background in computer science and a passion for building real things that solve real problems. I’ve worked across the stack — from writing Java APIs and Python tools to digging into C++, SQL, and even some hardware and networking when needed.              </p>
               <p className="text-lg mb-6">
-                Dynamic Software Engineer with hands-on experience in Java, Python, C++, and SQL, and a strong background in hardware implementation and network management. Focused on delivering scalable, secure, and efficient solutions across enterprise environments. Committed to excellence in every project.
-              </p>
+I love learning by doing, whether it's standing up secure backend systems, exploring AI models, or just figuring out how to make something work better and faster. Right now, I’m focused on writing clean, scalable code and pushing myself with projects that teach me something different and new.              </p>
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-4">Contact</h3>
                 <p className="mb-2">Email: carter@carterbridges.dev</p>
