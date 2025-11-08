@@ -1,28 +1,5 @@
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiBriefcase } from 'react-icons/fi';
-
-const socialLinks = [
-  {
-    icon: <FiGithub className="w-5 h-5" />,
-    href: 'https://github.com/carterbridges2001',
-    label: 'GitHub',
-  },
-  {
-    icon: <FiLinkedin className="w-5 h-5" />,
-    href: 'https://www.linkedin.com/in/carterbridges2001/',
-    label: 'LinkedIn',
-  },
-  {
-    icon: <FiBriefcase className="w-5 h-5" />,
-    href: 'https://app.joinhandshake.com/profiles/carterb',
-    label: 'Handshake',
-  },
-  {
-    icon: <FiMail className="w-5 h-5" />,
-    href: 'mailto:carter@carterbridges.dev',
-    label: 'Email',
-  },
-];
+import SocialLinks from './SocialLinks';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -48,20 +25,8 @@ export default function Footer() {
             Software engineer passionate about building exceptional digital experiences and solving complex problems through code.
           </p>
           
-          <div className="flex justify-center space-x-6 mb-8">
-            {socialLinks.map((link, index) => (
-              <a
-                key={index}
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-                aria-label={link.label}
-              >
-                <span className="sr-only">{link.label}</span>
-                {link.icon}
-              </a>
-            ))}
+          <div className="mb-8">
+            <SocialLinks className="justify-center" iconClassName="text-gray-400 hover:text-white" />
           </div>
           
           <div className="pt-8 border-t border-gray-800">

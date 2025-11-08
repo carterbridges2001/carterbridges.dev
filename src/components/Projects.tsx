@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Ruminary Exchange',
     description: 'High-end goat auction platform featuring real-time bidding, secure payments, and comprehensive livestock management tools.',
-    technologies: ['React', 'Node.js', 'Express', 'WebSockets', 'Firebase', 'Stripe'],
+    technologies: ['html', 'css', 'js', 'Firebase', 'Stripe'],
     github: 'https://github.com/carterbridges2001/Ruminary',
     demo: 'https://ruminaryexchange.com',
     image: '/images/ruminary-logo-mk1.png'

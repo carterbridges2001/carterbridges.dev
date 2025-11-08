@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { FiMenu, FiX, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { FiMenu, FiX } from 'react-icons/fi';
+import SocialLinks from './SocialLinks';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,11 +21,6 @@ export default function Navbar() {
     { name: 'Contact', href: '#contact' },
   ];
 
-  const socialLinks = [
-    { icon: <FiGithub />, href: 'https://github.com/carterbridges2001' },
-    { icon: <FiLinkedin />, href: 'https://www.linkedin.com/in/carterbridges2001/' },
-    { icon: <FiMail />, href: 'mailto:carter@carterbridges.dev' },
-  ];
 
   return (
     <header 
@@ -51,19 +47,11 @@ export default function Navbar() {
                 {item.name}
               </a>
             ))}
-            <div className="flex space-x-4 ml-4">
-              {socialLinks.map((link, index) => (
-                <a
-                  key={index}
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-dark hover:text-primary transition-colors duration-200"
-                >
-                  <span className="sr-only">{link.href}</span>
-                  <span className="text-xl">{link.icon}</span>
-                </a>
-              ))}
+            <div className="hidden md:flex items-center">
+              <SocialLinks 
+                className="space-x-2" 
+                iconClassName={`p-2 rounded-full ${scrolled ? 'text-gray-600 hover:bg-gray-100' : 'text-white hover:bg-white/10'}`} 
+              />
             </div>
           </div>
 
@@ -98,19 +86,11 @@ export default function Navbar() {
                 {item.name}
               </a>
             ))}
-            <div className="flex space-x-4 px-3 py-4">
-              {socialLinks.map((link, index) => (
-                <a
-                  key={index}
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-dark hover:text-primary"
-                >
-                  <span className="sr-only">{link.href}</span>
-                  <span className="text-xl">{link.icon}</span>
-                </a>
-              ))}
+            <div className="px-3 py-4">
+              <SocialLinks 
+                className="flex justify-center space-x-4"
+                iconClassName="text-dark hover:text-primary text-xl"
+              />
             </div>
           </div>
         </div>
