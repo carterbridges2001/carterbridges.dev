@@ -71,10 +71,14 @@ export default function Navbar() {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-dark hover:text-primary focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-white/20 focus:outline-none transition-colors duration-200"
             >
               <span className="sr-only">Open main menu</span>
-              {isOpen ? <FiX className="h-6 w-6" /> : <FiMenu className="h-6 w-6" />}
+              {isOpen ? (
+                <FiX className="h-6 w-6" />
+              ) : (
+                <FiMenu className="h-6 w-6" />
+              )}
             </button>
           </div>
         </div>

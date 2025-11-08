@@ -2,8 +2,11 @@ import { motion } from 'framer-motion';
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary to-secondary text-white py-20 px-4">
-      <div className="max-w-4xl mx-auto text-center">
+    <section className="relative w-screen min-h-screen flex items-center justify-center bg-gradient-to-br from-primary to-secondary text-white py-20">
+      <div className="absolute inset-0 w-full h-full overflow-hidden -z-10">
+        <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-primary to-secondary"></div>
+      </div>
+      <div className="w-full max-w-4xl px-4 mx-auto text-center relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
