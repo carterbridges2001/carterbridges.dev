@@ -82,7 +82,7 @@ export default function Projects() {
           <h2 className="text-4xl font-bold text-dark mb-4">Featured Projects</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            These are some hands-on builds I'm actively working on to sharpen my skills and explore real world systems. 
+            These are some builds I'm actively working on to sharpen my skills and explore real world systems. 
             Each one tackles a specific challenge I found interesting, from AI to IoT and pushes me deeper into full-stack engineering, secure backend architecture, and scalable infrastructure.
           </p>
         </motion.div>
