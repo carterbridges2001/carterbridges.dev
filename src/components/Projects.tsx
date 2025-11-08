@@ -3,20 +3,20 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'Feature coming soon',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
-    github: 'https://github.com/carterbridges2001',
-    demo: '#',
-    image: '/project1.jpg'
+    title: 'Ruminary Exchange',
+    description: 'High-end goat auction platform featuring real-time bidding, secure payments, and comprehensive livestock management tools.',
+    technologies: ['React', 'Node.js', 'Express', 'WebSockets', 'Firebase', 'Stripe'],
+    github: 'https://github.com/carterbridges2001/Ruminary',
+    demo: 'https://ruminaryexchange.com',
+    image: '/images/ruminary-logo-mk1.png'
   },
   {
-    title: 'Project 2',
-    description: 'Feature coming soon',
-    technologies: ['Next.js', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-    github: 'https://github.com/carterbridges2001',
-    demo: '#',
-    image: '/project2.jpg'
+    title: 'Ruminary Exchange Mobile',
+    description: 'iOS and Android app for the Ruminary Exchange platform, enabling users to bid, manage listings, and track auctions on the go.',
+    technologies: ['React Native', 'TypeScript', 'Redux', 'Firebase', 'Stripe'],
+    github: 'https://github.com/carterbridges2001/ruminary-exchange-mobile',
+    demo: 'https://apps.apple.com/app/ruminary-exchange/idYOUR_APP_ID',
+    image: '/images/ruminarymobile.png'
   },
   {
     title: 'Project 3',
@@ -24,16 +24,33 @@ const projects = [
     technologies: ['Python', 'TensorFlow', 'D3.js', 'FastAPI'],
     github: 'https://github.com/carterbridges2001',
     demo: '#',
-    image: '/project3.jpg'
+    image: '/images/project3.jpg'
   },
   {
     title: 'Project 4',
     description: 'Feature coming soon',
-    technologies: ['React Native', 'Redux', 'Firebase', 'TypeScript'],
+    technologies: ['Python', 'TensorFlow', 'D3.js', 'FastAPI'],
     github: 'https://github.com/carterbridges2001',
     demo: '#',
-    image: '/project4.jpg'
+    image: '/images/project3.jpg'
+  },
+    {
+    title: 'Project 5',
+    description: 'Feature coming soon',
+    technologies: ['Python', 'TensorFlow', 'D3.js', 'FastAPI'],
+    github: 'https://github.com/carterbridges2001',
+    demo: '#',
+    image: '/images/project3.jpg'
+  },
+    {
+    title: 'Project 6',
+    description: 'Feature coming soon',
+    technologies: ['Python', 'TensorFlow', 'D3.js', 'FastAPI'],
+    github: 'https://github.com/carterbridges2001',
+    demo: '#',
+    image: '/images/project3.jpg'
   }
+
 ];
 
 export default function Projects() {
@@ -65,9 +82,22 @@ export default function Projects() {
               className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300"
             >
               <div className="h-48 bg-gray-200 overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-r from-blue-100 to-indigo-100 flex items-center justify-center">
-                  <span className="text-gray-400 text-lg">Project Image</span>
-                </div>
+                {project.image ? (
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.onerror = null;
+                      target.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="%23e5e7eb"><rect width="100%" height="100%" /><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="12" fill="%239ca3af">Image not found</text></svg>';
+                    }}
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gradient-to-r from-blue-100 to-indigo-100 flex items-center justify-center">
+                    <span className="text-gray-400 text-lg">No Image Available</span>
+                  </div>
+                )}
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-dark mb-2">{project.title}</h3>
