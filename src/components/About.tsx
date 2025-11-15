@@ -80,7 +80,7 @@ I love learning by doing, whether it's standing up secure backend systems, explo
                 <div className="mb-4">
                   <h4 className="font-semibold">Bachelor of Science in Computer Science</h4>
                   <p>Appalachian State University, Boone, NC (2022-2025)</p>
-                  <p>Department GPA: 3.4, Cumulative GPA: 3.37</p>
+                  <p>Deans List, GPA: 3.5</p>
                 </div>
                 <div>
                   <h4 className="font-semibold">Associate of Science in Information Technology</h4>

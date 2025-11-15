@@ -10,7 +10,7 @@ const socialLinks = [
   },
   {
     icon: <FiFileText className="w-5 h-5" />,
-    href: 'https://drive.google.com/file/d/1iIn-L8xBkc21b4hC2BNyCjoWGSsWh_Rv/view',
+    href: 'https://drive.google.com/file/d/1DSArMoLreWH64E68uK11EUP9El4HazVV/view?usp=sharing',
     label: 'Resume',
   },
   {
