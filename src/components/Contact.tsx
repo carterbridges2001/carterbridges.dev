@@ -36,7 +36,7 @@ export default function Contact() {
     {
       icon: <FiFileText className="w-6 h-6" />,
       label: 'Resume',
-      href: 'https://drive.google.com/file/d/1iIn-L8xBkc21b4hC2BNyCjoWGSsWh_Rv/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1DSArMoLreWH64E68uK11EUP9El4HazVV/view?usp=sharing',
     },
   ];
 
