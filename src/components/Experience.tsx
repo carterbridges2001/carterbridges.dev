@@ -2,30 +2,39 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    role: 'Tech Support Consultant',
+    role: 'Front-End Developer',
+    company: 'Hunger and Health Coalition, Boone, NC',
+    period: 'Jan 2025 — Dec 2025',
+    description: [
+      'Built and maintained responsive web interfaces using HTML, CSS, and JavaScript',
+      'Improved accessibility (WCAG) and site performance, reducing load times by 30%',
+      'Partnered with backend engineers to integrate dynamic content and analytics tracking',
+      'Enhanced UX through data-driven design updates and cross-functional collaboration'
+    ],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Web Accessibility', 'Performance Optimization', 'Web Analytics']
+  },
+  {
+    role: 'IT Consultant',
     company: 'Tar Heel Insurance, Statesville, NC',
     period: 'Jun 2020 — Dec 2022',
     description: [
-      'Assembled and configured custom hardware systems and computer networks',
-      'Automated data extraction using Python, reducing manual processing time by 40%',
-      'Monitored system performance and implemented preventative maintenance',
-      'Collaborated with staff to identify and resolve technical issues efficiently',
-      'Enhanced cybersecurity measures and conducted system audits'
+      'Assembled and configured custom hardware systems and networks',
+      'Automated data extraction workflows, cutting manual processing time by 40%',
+      'Implemented system monitoring and preventative maintenance to ensure uptime',
+      'Strengthened cybersecurity posture through audits and employee collaboration'
     ],
-    technologies: ['Python', 'Network Configuration', 'System Maintenance', 'Cybersecurity']
+    technologies: ['Python', 'Network Configuration', 'System Automation', 'Cybersecurity', 'Process Improvement']
   },
   {
-    role: 'Information Technology Specialist',
+    role: 'IT Specialist',
     company: 'Staples, Statesville, NC',
     period: 'Jun 2019 — Jun 2020',
     description: [
-      'Installed and maintained network infrastructure and endpoint systems',
-      'Provided technical support and documentation for enterprise users',
-      'Guided staff on safe and effective technology use across departments',
-      'Managed multiple technical projects while meeting deadlines',
-      'Served as first point of contact for incoming IT support requests'
+      'Installed and maintained computer systems, networks, and peripherals',
+      'Resolved software and hardware issues, improving support response time by 20%',
+      'Delivered staff training on cybersecurity and efficient tech usage'
     ],
-    technologies: ['Network Infrastructure', 'Technical Support', 'IT Documentation', 'Project Management']
+    technologies: ['Hardware Installation', 'Technical Support', 'User Training', 'System Maintenance']
   }
 ];
 
