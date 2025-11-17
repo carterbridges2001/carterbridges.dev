@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 export default function About() {
   const skills = [
     // Programming Languages
-    'Python', 'Java', 'JavaScript', 'C#', 'C++'
+    'Python', 'Java', 'JavaScript', 'C#', 'C++',
     // Backend & APIs
     'FastAPI', 'Flask', 'Spring Boot', 'Node.js',
     // AI/ML
