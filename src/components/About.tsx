@@ -66,8 +66,9 @@ export default function About() {
             </h3>
             <div className="space-y-4 text-gray-600">
               <p className="text-lg mb-6">
-I’m a hands-on software engineer with a background in computer science and a passion for building real things that solve real problems. I’ve worked across the stack — from writing Java APIs and Python tools to digging into C++, SQL, and even some hardware and networking when needed.              </p>
-              <p className="text-lg mb-6">
+Expertise in both Information Technology and Software Development to build automated, secure, and user-centric technical solutions. With a strong background in software engineering, I specialize in developing custom Python workflows to optimize data processes and building responsive web applications using modern JavaScript frameworks like React.
+
+I hold a Bachelor of Science in Computer Science from Appalachian State University and an Associate of Science in IT, providing me with a rigorous foundation in software design, database management, and network security. I am proficient in Python, Java, SQL, and system administration, which allows me to take a comprehensive approach to solving complex infrastructure and development challenges.              <p className="text-lg mb-6">
 I love learning by doing, whether it's standing up secure backend systems, exploring AI models, or just figuring out how to make something work better and faster. Right now, I’m focused on writing clean, scalable code and pushing myself with projects that teach me something different and new.              </p>
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-4">Contact</h3>
