@@ -17,7 +17,7 @@ export default function Hero() {
             Hi, I'm Carter Bridges
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-gray-200">
-            Software Engineer & Problem Solver
+            Software Developer & IT Systems Specialist
           </h2>
           <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
             I build thoughtful, modern software experiences with a focus on real-world impact and clean, scalable technology.
